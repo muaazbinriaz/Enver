@@ -8,10 +8,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --spacing: 0.25rem;
-    --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-nunito: "Nunito Sans";
@@ -187,20 +185,11 @@
   .top-\[50px\] {
     top: 50px;
   }
-  .top-\[150px\] {
-    top: 150px;
-  }
   .top-\[162px\] {
     top: 162px;
   }
   .top-\[170px\] {
     top: 170px;
-  }
-  .top-\[280px\] {
-    top: 280px;
-  }
-  .top-\[290px\] {
-    top: 290px;
   }
   .right-1 {
     right: calc(var(--spacing) * 1);
@@ -268,26 +257,14 @@
   .mt-\[110px\] {
     margin-top: 110px;
   }
-  .mt-\[200px\] {
-    margin-top: 200px;
-  }
-  .mt-\[220px\] {
-    margin-top: 220px;
-  }
   .mt-\[290px\] {
     margin-top: 290px;
-  }
-  .mt-\[431px\] {
-    margin-top: 431px;
   }
   .mb-\[33px\] {
     margin-bottom: 33px;
   }
   .mb-\[200px\] {
     margin-bottom: 200px;
-  }
-  .mb-\[350px\] {
-    margin-bottom: 350px;
   }
   .flex {
     display: flex;
@@ -538,14 +515,14 @@
       margin-top: 157px;
     }
   }
-  .max-\[426px\]\:mb-0 {
-    @media (width < 426px) {
-      margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
   .max-\[426px\]\:mb-10 {
     @media (width < 426px) {
       margin-bottom: calc(var(--spacing) * 10);
+    }
+  }
+  .max-\[426px\]\:mb-14 {
+    @media (width < 426px) {
+      margin-bottom: calc(var(--spacing) * 14);
     }
   }
   .max-\[426px\]\:mb-\[150px\] {
@@ -636,6 +613,11 @@
   .max-\[376px\]\:right-0 {
     @media (width < 376px) {
       right: calc(var(--spacing) * 0);
+    }
+  }
+  .max-\[376px\]\:bottom-\[65px\] {
+    @media (width < 376px) {
+      bottom: 65px;
     }
   }
   .max-\[376px\]\:left-0 {
@@ -753,6 +735,13 @@
     @media (width < 376px) {
       --tw-leading: 150%;
       line-height: 150%;
+    }
+  }
+  .min-\[376px\]\:max-\[426px\]\:left-0 {
+    @media (width >= 376px) {
+      @media (width < 426px) {
+        left: calc(var(--spacing) * 0);
+      }
     }
   }
   .min-\[580px\]\:grid-cols-2 {
