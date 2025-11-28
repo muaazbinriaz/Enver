@@ -10,9 +10,9 @@
     />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="bg-[#19191B] mx-20 max-[376px]:mx-6">
+  <body class="bg-[#19191B] mx-20 max-[376px]:mx-6  bg-gradient-to-br from-[#5454D4]/30 via-[#1f1f22] to-[#5454D46B] ">
     <nav
-      class="flex justify-between mt-[33px] relative max-[376px]:mt-10"
+      class="flex justify-between items-center mt-[33px] relative max-[376px]:mt-10"
     >
       <div class="logo">
         <img
@@ -33,21 +33,35 @@
           class="text-[#FFFFFFB2] max-w-[266px] w-full text-[11.95px] flex gap-[26.55px]"
         >
           <li><a class="text-[#5454D4]" href="">Home</a></li>
-          <li><a class="" href="">Services</a></li>
-          <li><a class="" href="">Our Project</a></li>
-          <li><a class="" href="">About us</a></li>
+          <li>
+            <a class="hover:text-[#5454D4] transition duration-300" href=""
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-[#5454D4] transition duration-300" href=""
+              >Our Project</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-[#5454D4] transition duration-300" href=""
+              >About us</a
+            >
+          </li>
         </ul>
       </div>
       <div class="contact-btn">
         <button
-          class="text-[#FFFFFF] border rounded px-[17.64px] py-[5.5px] text-[10.62px] max-[376px]:hidden"
+          class="text-[#FFFFFF] border-[0.66px] rounded px-[27.64px] py-[7px] text-[10.62px] max-[376px]:hidden"
         >
           Contact us
         </button>
       </div>
     </nav>
 
-    <main class="mt-[98px] flex justify-between flex-wrap max-[376px]:mt-[66px] ">
+    <main
+      class=" mt-[98px] flex justify-between flex-wrap max-[376px]:mt-[66px] "
+    >
       <div class="max-w-[386px] w-full">
         <div class=" ">
           <h1
@@ -57,7 +71,9 @@
           </h1>
         </div>
         <div class="mt-[15px] max-[376px]:mt-[30px]">
-          <p class="text-[#FFFFFFB2] text-[13.94px] max-[376px]:text-[16px] max-[376px]:leading-[150%]">
+          <p
+            class="text-[#FFFFFFB2] text-[13.94px] max-[376px]:text-[16px] max-[376px]:leading-[150%]"
+          >
             Enver studio is a digital studio that offers several services such
             as UI/UX Design to developers, we will provide the best service for
             those of you who use our services.
@@ -88,33 +104,37 @@
         />
       </div>
     </main>
-<!-- mt-30 max-[376px]:mt-[110px] -->
-    <section class="mt-[110px] sm:mt-30 ">
-      <div class="flex max-[955px]:flex-wrap justify-between items-center mb-[33px]">
+
+    <section class="mt-[110px] sm:mt-30">
+      <div
+        class="flex max-[955px]:flex-wrap justify-between items-center mb-[33px]"
+      >
         <h1
-          class="text-[#FFFFFF] text-[40px]  leading-[46px] font-bold max-[376px]:text-[36px] max-[376px]:leading-[150%]"
+          class="text-[#FFFFFF] text-[40px] leading-[46px] font-bold max-[376px]:text-[36px] max-[376px]:leading-[150%]"
         >
           Why Enver Is The Best Choice?
         </h1>
         <p
-          class="text-[#FFFFFFB2] text-[13.94px] max-w-[390px] w-full leading-[25px] max-[376px]:mt-[30px] max-[376px]:leading-[150%]"
+          class="text-[#FFFFFFB2] text-[13.94px] max-w-[390px] w-full leading-[25px] mt-[30px] lg:mt-0 max-[376px]:leading-[150%]"
         >
           Watch this one minute video so you understand why you should use our
           services!
         </p>
       </div>
-      <div class="max-[376px]:mt-[50px]"><img class="w-full" src="assets/BG.png" alt="bg-image" /></div>
+      <div class="max-[376px]:mt-[50px]">
+        <img class="w-full" src="assets/BG.png" alt="bg-image" />
+      </div>
     </section>
 
     <section>
       <div class="flex flex-wrap justify-center mt-[99px] relative">
         <img
-          class="absolute left-[50px] max-[426px]:left-0 max-[426px]:bottom-[65px] max-[426px]:mb-14" 
+          class="absolute left-0 max-[550px]:bottom-[125px] "
           src="assets/triangle.png"
           alt="trianle image"
         />
         <h1
-          class="text-[#FFFFFF] text-[39.82px] font-bold max-w-[461px] w-full text-center leading-[46px] max-[376px]:text-left max-[376px]:text-[36px] max-[376px]:leading-[150%]  "
+          class="text-[#FFFFFF] text-[39.82px] font-bold max-w-[461px] w-full text-center leading-[46px] max-[556px]:text-left max-[556px]:text-[36px] max-[376px]:leading-[150%]"
         >
           The Service We Provide For You
         </h1>
@@ -124,64 +144,105 @@
           alt=""
         />
         <img
-          class="absolute hidden max-[376px]:block  max-[376px]:right-0 max-[376px]:top-[111px]"
+          class="absolute hidden max-[376px]:block max-[376px]:right-0 max-[376px]:top-[111px]"
           src="assets/add.png"
           alt=""
         />
       </div>
-      <div class="grid grid-cols-1 min-[580px]:grid-cols-2 min-[940px]:grid-cols-3  gap-y-16 mt-[63px]  max-[376px]:gap-y-[72px] ">
+      <div
+        class="grid grid-cols-1 min-[580px]:grid-cols-2 min-[940px]:grid-cols-3 gap-y-16 mt-[63px] max-[376px]:gap-y-[72px]"
+      >
         <div class="flex flex-col text-center items-center gap-4">
-            <img class="max-[376px]:w-[70px]" src="assets/services/Icon (1).png" alt="" />
-            <p class="text-[#FFFFFF] max-[376px]:text-[24px] ">Development</p>
-            <p class="text-[#FFFFFFB2]  text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7">
-              Create a platform with the best and coolest quality from us.
-            </p>
-          </div>
-          <div class="flex flex-col text-center items-center gap-4 ">
-            <img class="max-[376px]:w-[70px]" src="assets/services/Icon (2).png" alt="" />
-            <p class="text-[#FFFFFF] max-[376px]:text-[24px]">UI/UX Designer</p>
-            <p class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7">
-              We provide UI/UX Design services, and of course with the best
-              quality
-            </p>
-          </div>
-          <div class="flex flex-col text-center items-center gap-4 ">
-            <img class="max-[376px]:w-[70px]" src="assets/services/Icon (3).png" alt="" />
-            <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Graphic Designer</p>
-            <p class="text-[#FFFFFFB2] text-[13px] leading-[19px]  max-w-[200px] mx-auto max-[376px]:leading-7">
-              We provide Graphic Design services, with the best designers
-            </p>
-          </div>
-          <div class="flex flex-col text-center items-center gap-4">
-            <img class="max-[376px]:w-[70px]" src="assets/services/Icon (4).png" alt="" />
-            <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Motion Graphik</p>
-            <p class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7">
-              Create a platform with the best and coolest quality from us.
-            </p>
-          </div>
-          <div class="flex flex-col text-center items-center gap-4 ">
-            <img class="max-[376px]:w-[70px]" src="assets/services/Icon (5).png" alt="" />
-            <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Photography</p>
-            <p class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7">
-              We provide Photography services, and of course with the best
-              quality
-            </p>
-          </div>
-          <div class="flex flex-col text-center items-center gap-4 ">
-            <img class="max-[376px]:w-[70px]" src="assets/services/Icon (6).png" alt="" />
-            <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Videography</p>
-            <p class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7">
-              Create a platform with the best and coolest quality from us.
-            </p>
-          </div>
+          <img
+            class="max-[376px]:w-[70px]"
+            src="assets/services/Icon (1).png"
+            alt=""
+          />
+          <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Development</p>
+          <p
+            class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7"
+          >
+            Create a platform with the best and coolest quality from us.
+          </p>
+        </div>
+        <div class="flex flex-col text-center items-center gap-4">
+          <img
+            class="max-[376px]:w-[70px]"
+            src="assets/services/Icon (2).png"
+            alt=""
+          />
+          <p class="text-[#FFFFFF] max-[376px]:text-[24px]">UI/UX Designer</p>
+          <p
+            class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7"
+          >
+            We provide UI/UX Design services, and of course with the best
+            quality
+          </p>
+        </div>
+        <div class="flex flex-col text-center items-center gap-4">
+          <img
+            class="max-[376px]:w-[70px]"
+            src="assets/services/Icon (3).png"
+            alt=""
+          />
+          <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Graphic Designer</p>
+          <p
+            class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7"
+          >
+            We provide Graphic Design services, with the best designers
+          </p>
+        </div>
+        <div class="flex flex-col text-center items-center gap-4">
+          <img
+            class="max-[376px]:w-[70px]"
+            src="assets/services/Icon (4).png"
+            alt=""
+          />
+          <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Motion Graphik</p>
+          <p
+            class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7"
+          >
+            Create a platform with the best and coolest quality from us.
+          </p>
+        </div>
+        <div class="flex flex-col text-center items-center gap-4">
+          <img
+            class="max-[376px]:w-[70px]"
+            src="assets/services/Icon (5).png"
+            alt=""
+          />
+          <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Photography</p>
+          <p
+            class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7"
+          >
+            We provide Photography services, and of course with the best quality
+          </p>
+        </div>
+        <div class="flex flex-col text-center items-center gap-4">
+          <img
+            class="max-[376px]:w-[70px]"
+            src="assets/services/Icon (6).png"
+            alt=""
+          />
+          <p class="text-[#FFFFFF] max-[376px]:text-[24px]">Videography</p>
+          <p
+            class="text-[#FFFFFFB2] text-[13px] leading-[19px] max-w-[200px] mx-auto max-[376px]:leading-7"
+          >
+            Create a platform with the best and coolest quality from us.
+          </p>
+        </div>
       </div>
 
       <div class="left-icon my-8">
-        <img class="rotate-32 max-w-5 w-full max-[376px]:rotate-0 max-[376px]:mt-[57px]" src="assets/add.png" alt="" />
+        <img
+          class="rotate-32 max-w-5 w-full max-[376px]:rotate-0 max-[376px]:mt-[57px]"
+          src="assets/add.png"
+          alt=""
+        />
       </div>
     </section>
 
-    <section class=" max-[426px]:mt-[65px] ">
+    <section class="max-[426px]:mt-[65px]">
       <div class="relative">
         <p
           style="font-family: 'Nunito Sans'"
@@ -195,27 +256,30 @@
           alt=""
         />
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-3 mt-[45px] gap-4">
+
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[45px] gap-4"
+      >
         <img
-          class="sm:translate-y-0"
+          class="xl:translate-y-0 w-full md:w-[70%] mx-auto lg:w-full"
           src="assets/portfolio/Group 162508.png"
           alt=""
         />
         <img
-          class="sm:translate-y-[38px] hidden sm:block"
+          class="xl:translate-y-[38px] w-full md:w-[70%] mx-auto lg:w-full hidden sm:block"
           src="assets/portfolio/Group 162509.png"
           alt=""
         />
         <img
-          class="sm:translate-y-[76px] hidden sm:block"
+          class="xl:translate-y-[76px] w-full md:w-[70%] mx-auto lg:w-full hidden lg:ml-60 xl:ml-0 sm:block"
           src="assets/portfolio/Group 162510.png"
           alt=""
         />
       </div>
-    
+
       <div class="hidden max-[426px]:flex justify-center gap-3 mt-[50px]">
-        <img src="assets/portfolio/Group 162491.png" alt="">
-        <img src="assets/portfolio/Group 162492 (1).png" alt="">
+        <img src="assets/portfolio/Group 162491.png" alt="" />
+        <img src="assets/portfolio/Group 162492 (1).png" alt="" />
       </div>
       <div class="relative">
         <img
@@ -224,18 +288,22 @@
           alt=""
         />
         <img
-          class="absolute top-[162px] right-[400px] max-[426px]:hidden"
+          class="hidden sm:block absolute top-[162px] left-1/2 -translate-x-1/2"
           src="assets/portfolio/Group 162512.png"
           alt=""
         />
       </div>
     </section>
 
-    <section class="mb-[200px] mt-[290px] max-[426px]:mb-[150px] max-[426px]:mt-[157px] " >
+    <section
+      class="mb-[200px] mt-[290px] max-[426px]:mb-[150px] max-[426px]:mt-[157px]"
+    >
       <div class="relative">
         <img class="absolute right-5" src="assets/add.png" alt="" />
       </div>
-      <div class="flex flex-wrap justify-between items-center pt-[50px] max-[426px]:flex-col max-[426px]:items-start">
+      <div
+        class="flex flex-wrap justify-between items-center pt-[50px] max-[426px]:flex-col max-[426px]:items-start"
+      >
         <p
           class="text-[#FFFFFF] text-[40px] font-bold max-w-[548px] w-full leading-[100%] max-[426px]:text-[36px] max-[426px]:w-[327px] max-[426px]:leading-[150%]"
         >
@@ -243,30 +311,58 @@
         </p>
         <button
           style="font-family: 'Nunito Sans'"
-          class="bg-[#5454D4] rounded text-[#FFFFFF] text-[14px] max-w-[166px] w-full px-6 py-2 max-[426px]:mt-[50px]"
+          class="bg-[#5454D4] rounded text-[#FFFFFF] text-[14px] max-w-[166px] w-full px-6 py-2 max-[426px]:mt-[50px] md:mt-6 lg:mt-0"
         >
           Contact us
         </button>
       </div>
       <div class="relative">
-        <img class="absolute top-10 left-4 max-[426px]:left-0" src="assets/circles.png" alt="" />
+        <img
+          class="absolute top-10 left-4 max-[426px]:left-0"
+          src="assets/circles.png"
+          alt=""
+        />
       </div>
     </section>
 
     <footer class="pb-[50px]">
-      <div class="footer flex-wrap flex justify-between items-center max-[426px]:block max-[426px]:text-center max-[426px]:space-y-[41px] ">
+      <div
+        class="footer flex-wrap flex justify-between items-center max-[426px]:block max-[426px]:text-center max-[426px]:space-y-[41px]"
+      >
         <div class="max-[426px]:flex max-[426px]:justify-center">
-          <img class="max-[426px]:max-w-[115px] " src="assets/enver-logo.png" alt="" />
+          <img
+            class="max-[426px]:max-w-[115px]"
+            src="assets/enver-logo.png"
+            alt=""
+          />
         </div>
         <div>
-          <ul class="text-[#FFFFFFB2] flex gap-[26px] max-[426px]:block max-[426px]:space-y-[41px] max-[426px]:text-[#FFFFFF]">
-            <li><a class="text-[12px] max-[426px]:text-[18px]" htext-[#FFFFFF]ref="">Support</a></li>
-            <li><a class="text-[12px] max-[426px]:text-[18px]" href="">Privacy Policy</a></li>
-            <li><a class="text-[12px] max-[426px]:text-[18px]" href="">Terms and Conditions</a></li>
+          <ul
+            class="text-[#FFFFFFB2] flex gap-[26px] max-[426px]:block max-[426px]:space-y-[41px] max-[426px]:text-[#FFFFFF]"
+          >
+            <li>
+              <a
+                class="text-[12px] max-[426px]:text-[18px]"
+                htext-[#FFFFFF]ref=""
+                >Support</a
+              >
+            </li>
+            <li>
+              <a class="text-[12px] max-[426px]:text-[18px]" href=""
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a class="text-[12px] max-[426px]:text-[18px]" href=""
+                >Terms and Conditions</a
+              >
+            </li>
           </ul>
         </div>
         <div>
-          <p class="text-[#FFFFFFB2] text-[11px] max-[426px]:text-[18px] max-[426px]:text-[#FFFFFF]">
+          <p
+            class="text-[#FFFFFFB2] text-[11px] max-[426px]:text-[18px] max-[426px]:text-[#FFFFFF]"
+          >
             © 2020 Enver, All Rights Reserved
           </p>
         </div>
