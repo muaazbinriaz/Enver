@@ -6,3 +6,7 @@
 @theme {
   --font-nunito : "Nunito Sans";
 }
+
+html, body {
+  overflow-x: hidden;
+}
