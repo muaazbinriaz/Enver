@@ -67,12 +67,10 @@
       </nav>
       <!-- Main Section 1 -->
 
-      <main
-        class="flex w-full justify-between max-[640px]:flex-wrap relative 2xl:mt-24"
-      >
+      <main class="flex w-full justify-between max-[640px]:flex-wrap relative">
         <!-- Top left gradient -->
         <div
-          class="absolute w-[309.94px] h-[818.85px] top-[-250px] overflow-hidden left-[-180.48px] rounded-[154.97px] rotate-[-54.37deg] bg-[linear-gradient(180deg,rgba(84,84,212,0.27)_0%,rgba(84,84,212,0.1134)_100%)] blur-[110px] 2xl:left-[-50px] 2xl:top-[-100px] 2xl:blur-[160px]"
+          class="absolute w-[309.94px] h-[818.85px] top-[-200px] overflow-hidden left-[-180.48px] rounded-[154.97px] rotate-[-54.37deg] bg-[linear-gradient(180deg,rgba(84,84,212,0.27)_0%,rgba(84,84,212,0.1134)_100%)] blur-[110px] xl:top-[-180px] xl:left-[-90px] 2xl:left-[30px] 2xl:top-[-70px] 2xl:blur-[170px]"
         ></div>
 
         <!-- gradient 2 of small screens -->
@@ -82,7 +80,7 @@
 
         <!-- gradient 3 of top right for large screens -->
         <div
-          class="absolute w-[310px] h-[928px] top-[-100px] left-[410px] rounded-[155px] rotate-65 bg-[linear-gradient(180deg,rgba(251,168,28,0.1066)_0%,rgba(224,86,136,0.0615)_100%)] blur-[120px] 2xl:left-[910px] hidden sm:block"
+          class="absolute w-[310px] h-[928px] top-[-100px] left-[410px] rounded-[155px] rotate-65 bg-[linear-gradient(180deg,rgba(251,168,28,0.1066)_0%,rgba(224,86,136,0.0615)_100%)] blur-[120px] sm:left-[580px] md:left-[600px] [@media(min-width:640px)_and_(max-width:1020px)]:top-[-230px] xl:left-[720px] 2xl:left-[750px] [@media(min-width:2200px)]:left-[900px] hidden sm:block"
         ></div>
 
         <div class="z-10 overflow-hidden mt-[103px] max-[640px]:mt-[66px]">
@@ -372,11 +370,12 @@
 
       <!-- circle gradient  -->
       <div
-        class="absolute w-[397.93px] h-[400.29px] left-[610px] rounded-[200.97px] rotate-[125.63deg] bg-[linear-gradient(180deg,rgba(84,84,212,0.2)_0%,rgba(84,84,212,0.03)_100%)] blur-[70px] top-[2250px] sm:top-[1850px] sm:left-[600px] md:top-[1720px] md:left-[640px] lg:top-[1900px] lg:left-[800px] xl:left-[900px] xl:top-[2050px] 2xl:top-[2200px] [@media(min-width:2100px)]:top-[2250px] [@media(min-width:2100px)]:left-[1000px] hidden sm:block"
+        class="absolute -z-10 w-[397.93px] h-[400.29px] top-[1920px] left-[420px] rounded-[200.97px] rotate-[125.63deg] bg-[linear-gradient(180deg,rgba(84,84,212,0.2)_0%,rgba(84,84,212,0.03)_100%)] blur-[100px] md:top-[1820px] md:left-[500px] lg:top-[1790px] lg:left-[760px] xl:top-[2000px] xl:left-[890px] 2xl:top-[2050px] 2xl:left-[950px] [@media(min-width:2200px)]:left-[1000px] [@media(min-width:2200px)]:top-[2100px] [@media(min-width:1130px)_and_(max-width:1279px)]:top-[1850px] [@media(min-width:1130px)_and_(max-width:1279px)]:left-[850px] [@media(min-width:875px)_and_(max-width:1023px)]:top-[1800px] [@media(min-width:875px)_and_(max-width:1023px)]:left-[650px] hidden sm:block"
       ></div>
+
       <!-- triangle gradient -->
       <div
-        class="absolute w-[397.93px] h-[300.29px] left-[610px] rounded-[230.97px] rotate-[125.63deg] bg-[linear-gradient(180deg,rgba(84,84,212,0.2)_0%,rgba(84,84,212,0.03)_100%)] blur-[80px] top-[2250px] sm:top-[1150px] sm:left-[-140px] md:top-[1140px] md:blur-[70px] md:left-[-200px] lg:top-[1200px] xl:left-[-100px] xl:top-[1400px] 2xl:top-[1500px] [@media(min-width:2200px)]:top-[1600px] hidden sm:block"
+        class="-z-10 absolute w-[397.93px] h-[300.29px] rounded-[200.97px] rotate-[125.63deg] bg-[linear-gradient(180deg,rgba(84,84,212,0.2)_0%,rgba(84,84,212,0.03)_100%)] blur-[100px] top-[1060px] left-[-140px] md:top-[1080px] md:left-[-150px] lg:top-[1200px] xl:left-[-100px] xl:top-[1400px] 2xl:top-[1500px] [@media(min-width:2200px)]:top-[1600px] hidden sm:block"
       ></div>
 
       <!-- Portfolio Section -->
@@ -483,7 +482,7 @@
 
       <footer class="pb-[66px] max-[640px]:pb-[50px] max-[640px]:mt-[-50px]">
         <div
-          class="footer flex-wrap flex justify-between items-center max-[640px]:block max-[640px]:text-center max-[640px]:space-y-[41px]"
+          class="footer flex flex-wrap justify-between items-center max-[640px]:block max-[640px]:text-center max-[640px]:space-y-[41px] sm:flex-col sm:gap-6 lg:flex-row lg:gap-0"
         >
           <div
             class="flex items-center gap-2 max-[640px]:flex max-[640px]:justify-center"
@@ -500,21 +499,21 @@
             >
               <li>
                 <a
-                  class="text-[11.95px] max-[640px]:text-[18px] max-[640px]:leading-7 tracking-[-0.5px] hover:text-[#7C7CFF] duration-300 xl:text-[18px]"
+                  class="text-[18px] max-[640px]:text-[18px] max-[640px]:leading-7 tracking-[-0.5px] hover:text-[#7C7CFF] duration-300"
                   href=""
                   >Support</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[11.95px] max-[640px]:text-[18px] max-[640px]:leading-7 tracking-[-0.5px] hover:text-[#7C7CFF] duration-300 xl:text-[18px]"
+                  class="text-[18px] max-[640px]:text-[18px] max-[640px]:leading-7 tracking-[-0.5px] hover:text-[#7C7CFF] duration-300"
                   href=""
                   >Privacy Policy</a
                 >
               </li>
               <li>
                 <a
-                  class="text-[11.95px] max-[640px]:text-[18px] max-[640px]:leading-7 tracking-[-0.5px] hover:text-[#7C7CFF] duration-300 xl:text-[18px]"
+                  class="text-[18px] max-[640px]:text-[18px] max-[640px]:leading-7 tracking-[-0.5px] hover:text-[#7C7CFF] duration-300"
                   href=""
                   >Terms and Conditions</a
                 >
@@ -524,7 +523,7 @@
           <div>
             <p
               style="font-family: Nunito Sans"
-              class="text-[#FFFFFFB2] text-[10.62px] tracking-[-0.33px] leading-[25.22px] max-[640px]:text-[18px] xl:text-[18px] max-[640px]:text-[#FFFFFF]"
+              class="text-[#FFFFFFB2] text-[18px] tracking-[-0.33px] leading-[25.22px] max-[640px]:text-[18px] max-[640px]:text-[#FFFFFF]"
             >
               © 2020 Enver, All Rights Reserved
             </p>
