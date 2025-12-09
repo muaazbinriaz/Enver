@@ -333,9 +333,6 @@
   .mr-\[-39px\] {
     margin-right: -39px;
   }
-  .mb-\[3px\] {
-    margin-bottom: 3px;
-  }
   .mb-\[33px\] {
     margin-bottom: 33px;
   }
@@ -827,12 +824,6 @@
       }
     }
   }
-  .max-\[6400px\]\:leading-\[120\%\] {
-    @media (width < 6400px) {
-      --tw-leading: 120%;
-      line-height: 120%;
-    }
-  }
   .max-\[955px\]\:flex-wrap {
     @media (width < 955px) {
       flex-wrap: wrap;
@@ -931,11 +922,6 @@
   .max-\[640px\]\:mt-\[-50px\] {
     @media (width < 640px) {
       margin-top: -50px;
-    }
-  }
-  .max-\[640px\]\:mt-\[11px\] {
-    @media (width < 640px) {
-      margin-top: 11px;
     }
   }
   .max-\[640px\]\:mt-\[66px\] {
@@ -1070,12 +1056,6 @@
       line-height: 120%;
     }
   }
-  .max-\[640px\]\:leading-\[150\%\] {
-    @media (width < 640px) {
-      --tw-leading: 150%;
-      line-height: 150%;
-    }
-  }
   .max-\[640px\]\:text-\[\#FFFFFF\] {
     @media (width < 640px) {
       color: #FFFFFF;
@@ -1152,29 +1132,14 @@
       margin-top: 11px;
     }
   }
-  .max-\[450px\]\:mt-\[13px\] {
-    @media (width < 450px) {
-      margin-top: 13px;
-    }
-  }
   .max-\[450px\]\:mt-\[19px\] {
     @media (width < 450px) {
       margin-top: 19px;
     }
   }
-  .max-\[450px\]\:mt-\[23px\] {
-    @media (width < 450px) {
-      margin-top: 23px;
-    }
-  }
   .max-\[450px\]\:mt-\[25px\] {
     @media (width < 450px) {
       margin-top: 25px;
-    }
-  }
-  .max-\[450px\]\:mt-\[30px\] {
-    @media (width < 450px) {
-      margin-top: 30px;
     }
   }
   .max-\[450px\]\:mt-\[50px\] {
@@ -1318,31 +1283,15 @@
       letter-spacing: -0.75px;
     }
   }
-  .max-\[376px\]\:right-0 {
-    @media (width < 376px) {
-      right: calc(var(--spacing) * 0);
-    }
-  }
   .max-\[376px\]\:mt-10 {
     @media (width < 376px) {
       margin-top: calc(var(--spacing) * 10);
-    }
-  }
-  .max-\[376px\]\:block {
-    @media (width < 376px) {
-      display: block;
     }
   }
   .max-\[376px\]\:leading-\[120\%\] {
     @media (width < 376px) {
       --tw-leading: 120%;
       line-height: 120%;
-    }
-  }
-  .max-\[376px\]\:leading-\[150\%\] {
-    @media (width < 376px) {
-      --tw-leading: 150%;
-      line-height: 150%;
     }
   }
   .max-\[375px\]\:relative {
@@ -1363,6 +1312,16 @@
   .max-\[375px\]\:w-screen {
     @media (width < 375px) {
       width: 100vw;
+    }
+  }
+  .max-\[323px\]\:bottom-\[115px\] {
+    @media (width < 323px) {
+      bottom: 115px;
+    }
+  }
+  .max-\[322px\]\:bottom-\[115px\] {
+    @media (width < 322px) {
+      bottom: 115px;
     }
   }
   .max-\[321px\]\:bottom-\[115px\] {
